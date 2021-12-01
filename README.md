@@ -1,3 +1,5 @@
+<title>殷仄洛❤余生</title>
+
 ## 和她一直牵手走下去
 
 
@@ -36,10 +38,12 @@
  
   var oSpan = document.getElementsByTagName('span')[0];
   
+ var h1 = document.getElementsByTagName('h1')[0]
+ h1.innerHTML="泽文，我想和你一直走下去";
  var dn1 = document.getElementById('forkme_banner')
   dn1.style.display='none';
-  var dn1 = document.getElementsByTagName('footer')[0]
-  dn1.style.display='none';
+  var dn2 = document.getElementsByTagName('footer')[0]
+  dn2.style.display='none';
  
   function tow(n) {
  
