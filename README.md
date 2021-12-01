@@ -52,7 +52,7 @@
 <script>
  
 $(document).ready(function(){
-  
+ $('title').text('殷仄洛❤余生');
  var h1 = document.getElementsByTagName('h1')[0];
  h1.innerHTML="执子之手 与子偕老";
  var dn1 = document.getElementById('forkme_banner');
