@@ -57,7 +57,7 @@ $(document).ready(function(){
  h1.innerHTML="执子之手 与子偕老";
  var dn1 = document.getElementById('forkme_banner');
  dn1.style.display='none';
- var dn2 = document.getElementsByClassName('ribbon-outer')[0];
+ var dn2 = document.getElementsByClassName('ribbon-outer')[-1];
  dn2.style.display='none';
  
   var oSpan = document.getElementById('daojishi');
