@@ -53,11 +53,11 @@
  
 
   
- var h1 = document.getElementsByTagName('h1')[0]
+ var h1 = document.getElementsByTagName('h1')[0];
  h1.innerHTML="执子之手 与子偕老";
- var dn1 = document.getElementById('forkme_banner')
+ var dn1 = document.getElementById('forkme_banner');
  dn1.style.display='none';
- var dn2 = document.getElementsByTagName('footer')[0]
+ var dn2 = document.getElementsByTagName('footer')[0];
  dn2.style.display='none';
  
   var oSpan = document.getElementById('daojishi');
@@ -91,7 +91,7 @@
  
     second %= 60;
  
-    var str = '相识已有：' +  tow(day) + '<span class="time">天</span>'
+    var str = '相知相识三两天：' +  tow(day) + '<span class="time">天</span>'
  
         + tow(hour) + '<span class="time">小时</span>'
  
