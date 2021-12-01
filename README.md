@@ -1,20 +1,33 @@
 <title>殷仄洛❤余生</title>
 
-## 和她一直牵手走下去
+## 执子之手 与子偕老
 
 
-<p></p>
- 
-  
+> <p id='daojishi'></p>
+
+
 ### 认识时间
 
 2021-11-26 10:36 pm
+
+> 三杯两盏淡酒，可贴心畅谈。
 
 ### 第一次见面
 
 2021-11-29 6:15 pm
 
-<div style="display: hidden;">
+> 与君相逢，便胜人间无数。
+
+### 第一次约会
+
+> 相见时难别亦难，东风无力百花残。
+
+#### 地点
+
+-. 户外：风景区，旅游景点，观光区，
+-. 室内：温馨的地方，冬天暖和的地方
+-. 家里：到我家做饭
+
  
 ### 接触中犯下的错
 
@@ -30,21 +43,22 @@
  
 3. 相处时自然融洽最重要，过于迁就对方时，会让自己逐步积累不舒适的情绪，可能会埋下隐藏的隔阂。
  
-<div>
+
  
  
 
 <script>
  
-  var oSpan = document.getElementsByTagName('span')[0];
+
   
  var h1 = document.getElementsByTagName('h1')[0]
- h1.innerHTML="泽文，我想和你一直走下去";
+ h1.innerHTML="执子之手 与子偕老";
  var dn1 = document.getElementById('forkme_banner')
   dn1.style.display='none';
   var dn2 = document.getElementsByTagName('footer')[0]
   dn2.style.display='none';
  
+  var oSpan = document.getElementById('daojishi');
   function tow(n) {
  
     return n >= 0 && n < 10 ? '0' + n : '' + n;
