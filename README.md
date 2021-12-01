@@ -1,12 +1,14 @@
 ## 和她一直牵手走下去
 
 
-> <p></p>
+<p></p>
  
 
 <script>
  
   var oSpan = document.getElementsByTagName('span')[0];
+  var dn1 = document.getElementById('forkme_banner')
+  dn1.style.display='none';
  
   function tow(n) {
  
@@ -20,7 +22,7 @@
  
     var oldTime = oDate.getTime();//现在距离1970年的毫秒数
  
-    var newDate = new Date('2021/11/26 00:00:00');
+    var newDate = new Date('2021/11/26 22:36:00');
  
     var newTime = newDate.getTime();//2019年距离1970年的毫秒数
  
@@ -65,12 +67,22 @@
 
 2021-11-29 6:15 pm
 
+<div >
+ 
 ### 接触中犯下的错
 
-#### 第一次见面中的过错
-
 1. 见她时感觉过于漂亮，产生自惭形秽之心，表现不够自然。
-
-2. 初次见面就过于肆无忌惮，导致印象很差。
+ 
+2. 竟然迟到了，我能感受到她心里的那种失望感，这种错误在再不允许了！
+ 
+### 她告诉我的道理
+ 
+1. 想清楚自己想要什么（什么样的伴侣）
+ 
+2. 信任和真诚，是维系感情的基础。
+ 
+3. 相处时自然融洽最重要，过于迁就对方时，会让自己逐步积累不舒适的情绪，可能会埋下隐藏的隔阂。
+ 
+<div>
 
 
