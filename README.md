@@ -1,10 +1,9 @@
 ## 和她一直牵手走下去
 
 
-<p>相识已有：</p>
+> <p></p>
  
-<p><span></span></p>
- 
+
 <script>
  
   var oSpan = document.getElementsByTagName('span')[0];
@@ -39,7 +38,7 @@
  
     second %= 60;
  
-    var str = tow(day) + '<span class="time">天</span>'
+    var str = '相识已有：' +  tow(day) + '<span class="time">天</span>'
  
         + tow(hour) + '<span class="time">小时</span>'
  
