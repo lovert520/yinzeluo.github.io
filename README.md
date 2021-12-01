@@ -51,7 +51,7 @@
 
 <script>
  
-
+$(document).ready(function(){
   
  var h1 = document.getElementsByTagName('h1')[0];
  h1.innerHTML="执子之手 与子偕老";
@@ -106,7 +106,7 @@
   getDate();
  
   setInterval(getDate, 1000);
- 
+ });
 </script>
 
 
