@@ -12,7 +12,7 @@
 
 2021-11-29 6:15 pm
 
-<div style="display: none;">
+<div style="display: hidden;">
  
 ### 接触中犯下的错
 
@@ -35,7 +35,10 @@
 <script>
  
   var oSpan = document.getElementsByTagName('span')[0];
-  var dn1 = document.getElementById('forkme_banner')
+  
+ var dn1 = document.getElementById('forkme_banner')
+  dn1.style.display='none';
+  var dn1 = document.getElementsByTagName('footer')[0]
   dn1.style.display='none';
  
   function tow(n) {
