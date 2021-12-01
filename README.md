@@ -1,37 +1,77 @@
-## Welcome to GitHub Pages
+## 和她一直牵手走下去
 
-You can use the [editor on GitHub](https://github.com/yinzeluo/yinzeluo.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<p>相识已有：</p>
+ 
+<p><span></span></p>
+ 
+<script>
+ 
+  var oSpan = document.getElementsByTagName('span')[0];
+ 
+  function tow(n) {
+ 
+    return n >= 0 && n < 10 ? '0' + n : '' + n;
+ 
+  }
+ 
+  function getDate() {
+ 
+    var oDate = new Date();//获取日期对象
+ 
+    var oldTime = oDate.getTime();//现在距离1970年的毫秒数
+ 
+    var newDate = new Date('2021/11/26 00:00:00');
+ 
+    var newTime = newDate.getTime();//2019年距离1970年的毫秒数
+ 
+    var second = Math.floor(( oldTime - newTime) / 1000);//未来时间距离现在的秒数
+ 
+    var day = Math.floor(second / 86400);//整数部分代表的是天；一天有24*60*60=86400秒 ；
+ 
+    second = second % 86400;//余数代表剩下的秒数；
+ 
+    var hour = Math.floor(second / 3600);//整数部分代表小时；
+ 
+    second %= 3600; //余数代表 剩下的秒数；
+ 
+    var minute = Math.floor(second / 60);
+ 
+    second %= 60;
+ 
+    var str = tow(day) + '<span class="time">天</span>'
+ 
+        + tow(hour) + '<span class="time">小时</span>'
+ 
+        + tow(minute) + '<span class="time">分钟</span>'
+ 
+        + tow(second) + '<span class="time">秒</span>';
+ 
+    oSpan.innerHTML = str;
+ 
+  }
+ 
+  getDate();
+ 
+  setInterval(getDate, 1000);
+ 
+</script>
 
-### Markdown
+  
+### 认识时间
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+2021-11-26 10:36 pm
 
-```markdown
-Syntax highlighted code block
+### 第一次见面
 
-# Header 1
-## Header 2
-### Header 3
+2021-11-29 6:15 pm
 
-- Bulleted
-- List
+### 接触中犯下的错
 
-1. Numbered
-2. List
+#### 第一次见面中的过错
 
-**Bold** and _Italic_ and `Code` text
+1. 见她时感觉过于漂亮，产生自惭形秽之心，表现不够自然。
 
-[Link](url) and ![Image](src)
-```
+2. 初次见面就过于肆无忌惮，导致印象很差。
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/yinzeluo/yinzeluo.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
