@@ -154,11 +154,11 @@ $(document).ready(function(){
  
     var oldTime = oDate.getTime();//现在距离1970年的毫秒数
  
-    var newDate = new Date('2021/11/26 22:36:00');
+    var newDate = new Date('2022/03/31 00:00:00');
  
     var newTime = newDate.getTime();//2019年距离1970年的毫秒数
  
-    var second = Math.floor(( oldTime - newTime) / 1000);//未来时间距离现在的秒数
+    var second = Math.floor(( newTime - oldTime) / 1000);//未来时间距离现在的秒数
  
     var day = Math.floor(second / 86400);//整数部分代表的是天；一天有24*60*60=86400秒 ；
  
@@ -172,7 +172,7 @@ $(document).ready(function(){
  
     second %= 60;
  
-    var str = '相知相识三两天：' +  tow(day) + '<span class="time">天</span>'
+    var str = '2022 MM DDL：' +  tow(day) + '<span class="time">天</span>'
  
         + tow(hour) + '<span class="time">时 </span>'
  
